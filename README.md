@@ -1,6 +1,6 @@
 ## ⌚ Tymo
 
-![Tymo App Banner](https://via.placeholder.com/800x200?text=Tymo+App+Banner)
+![banner](https://drive.google.com/file/d/1a_AAORB-a3Ff-IXyILgMxjUz7T4NPoKx/view?usp=sharing)
 
 A modern Flutter application designed to display time in a customizable and simple way.
 
@@ -30,7 +30,7 @@ Before you begin, ensure you have met the following requirements:
    ```terminal
    flutter run -d <your_device_id> --debug
    ```
-> Get device id when running flutter devices.
+> Get device id when running flutter devices
 
 ### Method 2: Wireless Debugging
 1. While device conected and recognized, run:
