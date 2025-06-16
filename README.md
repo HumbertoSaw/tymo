@@ -38,12 +38,14 @@ Before you begin, ensure you have met the following requirements:
    adb tcpip 5555
    adb connect <device_ip>:5555
    ```
+
 > Get device ip on Developer options > Debugging > Wireless debugging
 2. Disconect and check availavility in host machine terminal
    ```terminal
    adb devices
    flutter devices
   ```
+
 1. While device conected wirelessly and recognized, run:
    ```terminal
    flutter run -d <your_device_id> --debug
