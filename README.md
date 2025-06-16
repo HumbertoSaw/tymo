@@ -2,7 +2,8 @@
 
 ![banner](/assets/git_banner.png)
 
-A modern Flutter application designed to display time in a customizable and simple way.
+A modern Flutter application designed to display time in a customizable and simple way.␣␣
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📋 Prerequisites
