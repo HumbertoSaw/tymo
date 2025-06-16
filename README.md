@@ -4,6 +4,8 @@
 
 A modern Flutter application designed to display time in a customizable and simple way.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -44,7 +46,7 @@ Before you begin, ensure you have met the following requirements:
    ```terminal
    adb devices
    flutter devices
-  ```
+   ```
 
 1. While device conected wirelessly and recognized, run:
    ```terminal
@@ -56,5 +58,3 @@ Before you begin, ensure you have met the following requirements:
   ```terminal
   flutter build apk --release
   ```
-
-
