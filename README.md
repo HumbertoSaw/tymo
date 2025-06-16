@@ -57,4 +57,6 @@ Before you begin, ensure you have met the following requirements:
   flutter build apk --release
   ```
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
