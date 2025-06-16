@@ -44,7 +44,7 @@ Before you begin, ensure you have met the following requirements:
    ```terminal
    adb devices
    flutter devices
-  ```
+   ```
 
 1. While device conected wirelessly and recognized, run:
    ```terminal
