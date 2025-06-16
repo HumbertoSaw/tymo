@@ -2,6 +2,7 @@ import 'package:clock_app/providers/misc-provider.dart';
 import 'package:clock_app/services/shared_prefs_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 import 'home.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -9,6 +10,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await SharedPrefsService.init();
+  await WakelockPlus.enable();
 
   final container = ProviderContainer();
 
