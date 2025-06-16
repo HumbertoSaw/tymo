@@ -1,6 +1,6 @@
 ## ⌚ Tymo
 
-![banner](https://drive.google.com/file/d/1a_AAORB-a3Ff-IXyILgMxjUz7T4NPoKx/view?usp=sharing)
+![banner](/assets/git_banner.png)
 
 A modern Flutter application designed to display time in a customizable and simple way.
 
@@ -25,14 +25,14 @@ Before you begin, ensure you have met the following requirements:
        flutter devices
     ```
 
-### Method 1: USB Debugging
+### Method 1: USB Debugging 🔌
 1. While device conected (Or emulator running) and recognized, run:
    ```terminal
    flutter run -d <your_device_id> --debug
    ```
 > Get device id when running flutter devices
 
-### Method 2: Wireless Debugging
+### Method 2: Wireless Debugging :wireless:
 1. While device conected and recognized, run:
    ```terminal
    adb tcpip 5555
@@ -48,3 +48,11 @@ Before you begin, ensure you have met the following requirements:
    ```terminal
    flutter run -d <your_device_id> --debug
    ```
+
+## :wrench: Build a release
+### Generate APK
+  ```terminal
+  flutter build apk --release
+  ```
+
+
