@@ -59,10 +59,10 @@ class _ImageBackgroudSettingState extends ConsumerState<ImageBackgroudSetting>
       _selectedImage = null;
       _blurAmount = 0.0;
     });
-    // Limpiar ambos providers
+
     ref.read(backgroundImagePathProvider.notifier).state = null;
     ref.read(backgroundImageBlurPathProvider.notifier).state = 0.0;
-    // También limpiar SharedPreferences directamente
+
     SharedPrefsService.remove('backgroundImagePath');
     SharedPrefsService.remove('backgroundImageBlur');
   }
