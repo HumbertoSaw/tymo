@@ -63,7 +63,7 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/icons/icon_adaptive.png
+    - assets/icons/icon_splash_b.png
     - assets/icons/icon.png
 
   # The following line ensures that the Material Icons font is
@@ -107,13 +107,13 @@ flutter_icons:
   ios: true
   image_path: "assets/icons/icon.png"
   adaptive_icon_foreground: "assets/icons/icon.png"
-  adaptive_icon_background: "#5C5C5CFF" 
+  adaptive_icon_background: "#3B3B3B" 
 
 flutter_native_splash:
-  color: "#3B3B3B"
+  color: "#1D1D1D"
   image: "assets/icons/icon_splash_b.png"
   android: true
   ios: true
   android_12:
     image: "assets/icons/icon_splash_b.png"
-    color: "#3B3B3B"
+    color: "#1D1D1D"
